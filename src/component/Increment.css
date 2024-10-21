@@ -1,0 +1,43 @@
+  body{
+  background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+button{
+    background-color:blue;
+    color:white;
+    padding:20px 30px;
+    border:none;
+    border-radius:10%;
+    font-size:30px;
+    cursor: pointer;
+
+}
+.mydiv{
+ 
+    margin: auto;
+  
+    color:rgba(255, 255, 255, 0.815);
+}
+p{
+    text-transform: capitalize;
+    font-size: 30px;
+    text-align: center;
+ 
+}
+.resultarea{
+    display: flex;
+    justify-content: center;
+}
+.countarea{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap:30px;
+  margin-top:10px;
+}
